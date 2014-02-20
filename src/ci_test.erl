@@ -16,6 +16,7 @@ simple_test() ->
 silly_test() ->
     ?assertEqual(true, self() == self()).
 
+%% blah
 failing_test() ->
     ?assert(false).
 
