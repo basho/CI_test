@@ -16,4 +16,7 @@ simple_test() ->
 silly_test() ->
     ?assertEqual(true, self() == self()).
 
+failing_test() ->
+	?assert(false).
+
 -endif.
