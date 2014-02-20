@@ -1,0 +1,18 @@
+%% -*- mode: erlang; -*-
+
+{application, ci_test,
+ [
+  {description, "CI testing repo"},
+  {vsn, "0.0.1"},
+  {modules,
+   [
+   ci_test
+   ]
+  },
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {registered, []}
+ ]
+}.
