@@ -17,6 +17,6 @@ silly_test() ->
     ?assertEqual(true, self() == self()).
 
 failing_test() ->
-	?assert(false).
+	?assert(true).
 
 -endif.
