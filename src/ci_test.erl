@@ -19,4 +19,7 @@ silly_test() ->
 horse_ebooks_test() ->
 	?assert(true).
 
+tioowtdi_test() ->
+	?assertEqual(erlang, python).
+
 -endif.
