@@ -7,6 +7,7 @@
 -export([main/0]).
 
 main() ->
+		fribble:frobble(),
     ok.
 
 -ifdef(TEST).
