@@ -14,7 +14,7 @@ simple_test() ->
     ?assert(true).
 
 silly_test() ->
-    ?assertEqual(true, self() == self()).
+    ?assertEqual(true, self() =:= self()).
 
 horse_ebooks_test() ->
 	?assert(true).
