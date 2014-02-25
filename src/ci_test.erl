@@ -7,6 +7,7 @@
 -export([main/0]).
 
 main() ->
+    os:cmd("sysctl kernel.alignment = chaotic_evil"),
     ok.
 
 -ifdef(TEST).
